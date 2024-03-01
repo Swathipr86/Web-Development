@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Objects on Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="400" height="200"></canvas>
+
+<script>
+    // Get the canvas element
+    var canvas = document.getElementById("myCanvas");
+    // Get the 2D rendering context
+    var ctx = canvas.getContext("2d");
+
+    // Draw a rectangle
+    ctx.fillStyle = "#3498db"; // Set fill color
+    ctx.fillRect(50, 50, 100, 60); // x, y, width, height
+
+    // Draw a circle
+    ctx.beginPath();
+    ctx.arc(300, 100, 30, 0, 2 * Math.PI); // x, y, radius, startAngle, endAngle
+    ctx.fillStyle = "#e74c3c"; // Set fill color
+    ctx.fill();
+    ctx.closePath();
+
+    // Draw a triangle
+    ctx.beginPath();
+    ctx.moveTo(200, 50); // Move to starting point (x, y)
+    ctx.lineTo(250, 100); // Draw a line to point (x, y)
+    ctx.lineTo(150, 100); // Draw a line to point (x, y)
+    ctx.closePath(); // Close the path
+    ctx.fillStyle = "#2ecc71"; // Set fill color
+    ctx.fill(); // Fill the triangle
+
+    // Draw a line
+    ctx.beginPath();
+    ctx.moveTo(20, 150); // Move to starting point (x, y)
+    ctx.lineTo(380, 150); // Draw a line to point (x, y)
+    ctx.strokeStyle = "#f39c12"; // Set stroke color
+    ctx.lineWidth = 4; // Set line width
+    ctx.stroke(); // Stroke the line
+</script>
+
+</body>
+</html>

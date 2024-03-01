@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deactivation Form</title>
+    <frameset rows = "70%,30%">
+        <frame name = "Form1" src = "9-Registrationform.html" />
+        <frame name = "Form2" src = "8-Hyperlink.html" />
+        </frameset>
+    <style>
+        
+        h1{
+            text-align: center;
+            color: rgb(27, 120, 52);
+            
+        }
+        body{
+            background-color: aquamarine;
+        }
+        textarea{
+            width: 500px;
+            height: 200px;
+        }
+        h3{
+            color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <h1><u>Deactivation Form</u></h1>
+    <form> 
+        <h3>Enter your login credentials:</h3>      
+            <div>
+                <label for="email"><b>Enter your Email:</b></label>
+                <input type="email" id="username" name="username" placeholder="Enter your Email"  required>
+            </div><br>
+            <div><label for="name"><b>Enter the Password:</b></label>
+                <input type="password" id="username" name="username" placeholder="Enter your Password"  required>
+            </div><br>
+                       <div> <button type="submit" value="Submit"><b>Login</b></fieldset></div>
+                        <h3>Enter your Details:</h3>
+            <div>
+                <label for="name"><b>Enter name:</b></label>
+                <input type="text" id="username" name="username" placeholder="Enter your name" >
+            </div><br>
+            <div>
+                <label for="number"><b>Enter your phone number:</b></label>
+                <input type="number" maxlength="10" placeholder="Enter your phone number" required>
+            </div>
+            <div>
+                <h3>Select the reasons for Deactivation:</h3>
+      
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3">Traffic Violations</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Expired Insurance</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3">Unsafe Driving</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Car Accident</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Vehical Insepction</label>
+</div>
+    <h3>Kindly explain the reason for your deactivation</h3>
+       <textarea placeholder="write something...!">   
+    </textarea>
+    <h3>Finally do you want to deactivate.?</h3>
+    <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">YES</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">NO</label><br><br>
+        <div>
+        <button type="submit" value="Submit" onclick="alert('Your deactivation is succesfully completed!!')"><b>Submit</b></button>
+    </div>
+   
+         
+    </form>
+</body>
+</html>

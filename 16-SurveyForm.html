@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        * {
+            padding: 6px;
+            margin: 2px;
+        }
+        h1 {
+            background-color: aqua;
+            text-align: center;
+            color: brown;
+            margin: 0px;
+            padding: 20px;
+            
+        }
+        .margin {
+            margin-left: 300px;
+            margin-right: 300px;
+            width: 900px;
+            height: 950px;
+            border: 4px solid rgb(13, 152, 176);
+            padding: 0px;
+
+        }
+        table,th,td{
+            border: 2px solid black; 
+                
+        }
+        table{
+            border-collapse: collapse;
+            position: absolute;
+            width:800px;
+            left:370px;
+           
+        }
+        #hij{
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+
+        <fieldset class="margin">
+            
+        <h1>Surevey Form for Voting</h1>
+       
+            <h3>How old are you?</h3>
+
+
+            <input type="radio" id="2" name="Female">
+            <label for="2"> Under 18 years old</label><br><br>
+            <input type="radio" id="2" name="Female">
+            <label for="2">18-45 years old
+            </label><br><br>
+            <input type="radio" id="2" name="Female">
+            <label for="2">46-60 years old
+            </label><br><br>
+            <input type="radio" id="2" name="Female">
+            <label for="2">Over 60 year old</label><br><br>
+
+
+            <h3>What is your gender?</h3>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Female</label><br><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Other</label><br><br>
+        </div>
+        <div>
+            <h3>Are you registered to vote?</h3>
+            <input type="radio" id="country1" name="age" value="30">
+            <label for="country1">YES</label>
+            <input type="radio" id="country2" name="age" value="60">
+            <label for="country2">NO</label>
+        </div>
+        <div>
+            <h3>Do you think the government is currently on the right track to help the people of this country?</h3>
+            <input type="radio" id="ab1" name="a" value="20">
+            <label for="ab1">YES</label>
+            <input type="radio" id="ab1" name="a" value="20">
+            <label for="ab1">NO</label>
+            
+        </div>
+        <div>
+            <h3>Which party do you most often side with?</h3>
+            <input type="radio" id="efg" name="ab" value="20">
+            <label for="efg">Democratic</label>
+            <input type="radio" id="efg" name="ab" value="20">
+            <label for="efg">Republician</label><br><br>
+            <input type="radio" id="efg" name="ab" value="20">
+            <label for="efg">Don't know</label>
+            <input type="radio" id="efg" name="ab" value="20">
+            <label for="efg">Other</label>
+        </div>
+        <div>   
+            <h3>Please answer with your level of agreement:</h3>
+            <table>
+            <tr>
+                <th>    </th>
+                <th>Strongly disagree</th>
+                <th>Diagree</th>
+                <th>neutral</th>
+                <th>Agree</th>
+                <th>Strongly agree</th>
+            </tr> 
+            <tr>
+                <td>All people should be allowwd the oppurtunity to live here.</td>
+                <td align="center"><input type="radio" id="hij" name="cd" value="20" class=""></td>
+                <td align="center"><input type="radio" id="hij" name="cd" value="20"></td>
+                <td align="center"><input type="radio" id="hij" name="cd" value="20"></td>
+                <td align="center"><input type="radio" id="hij" name="cd" value="20"></td>
+                <td align="center"><input type="radio" id="hij" name="cd" value="20"></td>
+            </tr>
+            <tr>
+                <td>Government representatives should represent the cultural demographics of their constitutents. </td>
+                <td align="center"><input type="radio" id="klm" name="ef" value="20"></td>
+                <td align="center"><input type="radio" id="klm" name="ef" value="20"></td>
+                <td align="center"><input type="radio" id="klm" name="ef" value="20"></td>
+                <td align="center"><input type="radio" id="klm" name="ef" value="20"></td>
+                <td align="center"><input type="radio" id="klm" name="ef" value="20"></td>
+            </tr> 
+            <tr>
+                <td>Higher income should be taxed more than lower incomes.</td>
+                <td align="center"><input type="radio" id="mn" name="gh" value="20"></td>
+                <td align="center"><input type="radio" id="mn" name="gh" value="20"></td>
+                <td align="center"><input type="radio" id="mn" name="gh" value="20"></td>
+                <td align="center"><input type="radio" id="mn" name="gh" value="20"></td>
+                <td align="center"><input type="radio" id="mn" name="gh" value="20"></td>
+                
+            </tr>
+            <tr>
+                <td>Crime conviction sentences are too high for non-violent crimes.</td>
+                <td align="center"><input type="radio" id="op" name="hi" value="20"></td>
+                <td align="center"><input type="radio" id="op" name="hi" value="20"></td>
+                <td align="center"><input type="radio" id="op" name="hi" value="20"></td>
+                <td align="center"><input type="radio" id="op" name="hi" value="20"></td>
+                <td align="center"><input type="radio" id="op" name="hi" value="20"></td>
+            </tr> 
+            
+        </div>    
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

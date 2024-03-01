@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeildSets</title>
+    <style>
+        h1 {
+            color: #8400ff;
+            text-align: center;
+        }
+
+        button {
+            background-color: #8400ff;
+            width: 200px;
+            height: 25px;
+        }
+
+        fieldset {
+            border: 3px solid rgb(255, 229, 57);
+        }
+
+        .Login,.Education,.Skills {
+            padding: 20px;
+            width: 800px;
+            margin: 40px;
+
+        }
+        h2{
+            color:brown
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+       <b>Feild Sets.....!</b>
+    </h1>
+    <h2>Personal Details:</h2>
+    <fieldset class="Login">
+        <legend><b style="color: #00ff00;">Personal Information</b></legend>
+        <form>
+            <label for="email"><b>Enter your Email:</b></label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" autofocus required> <br><br>
+            <div>
+                <label for="name"><b>Enter the Password:</b></label>
+                <input type="password" id="username" name="username" placeholder="Enter your Password" required>
+            </div><br>
+            <div>
+                <label for="name"><b>Enter Father name:</b></label>
+                <input type="text" id="username" name="username" placeholder="Enter Father name">
+            </div><br>
+            <div>
+            <label for="name"><b>Enter Mother name:</b></label>
+            <input type="text" id="username" name="username" placeholder="Enter Mother name">
+            </div><br><br>
+            <label for="blood_group"><b>Blood Group: </b></label>
+            <select class="form-control" name="blood_group">
+                <option value="">Blood Group</option>
+                <option value="A+VE">A +VE</option>
+                <option value="A-VE">A -VE</option>
+                <option value="B+VE">B +VE</option>
+                <option value="B-VE">B -VE</option>
+                <option value="O+VE">O +VE</option>
+                <option value="O-VE">O -VE</option>
+                <option value="AB+VE">AB +VE</option>
+                <option value="AB-VE">AB -VE</option>
+            </select><br>
+            <br>
+            <div> <button type="submit" value="Submit"><b>Login</b></button>
+    </fieldset>
+    </div>
+    <h2>Education Details:</h2>
+    <fieldset class="Education">
+        <legend ><b style="color: #00ff00;">Education details:</b></legend>
+        <div>
+            <label for="name"><b>Enter School name:</b></label>
+            <input type="text" id="username" name="username" placeholder="Enter School name">
+            </div><br>
+        <div>
+            <label for="name"><b>Enter Your SSC Marks:</b></label>
+            <input type="number" id="username" name="username" placeholder="Enter your SSC Marks" required maxlength="10">
+        </div><br>
+        <div>
+            <label for="name"><b>Enter College name:</b></label>
+            <input type="text" id="username" name="username" placeholder="Enter College name">
+            </div><br>
+        <div>
+            <label for="name"><b>Enter Your Intermediate Marks:</b></label>
+            <input type="number" id="username" name="username" placeholder="Enter Your Intermidiate Marks" maxlength="10">
+        </div><br>
+        <div>
+            <label for="name"><b>Enter University name:</b></label>
+            <input type="text" id="username" name="username" placeholder="Enter University name">
+            </div><br>
+        <label for="name"><b>Enter Your Under Graduation Marks:</b></label>
+        <input type="number" id="username" name="username" placeholder="Enter Mother name" maxlength="10">
+        </div><br>
+    </fieldset>
+    <h2>Skill Set/Other:</h2>
+   
+    <fieldset class="Skills">
+        <legend><b style="color: #00ff00;">Skill Set/Other:</b></legend>
+        <div>
+            <b>Programming Skills:</b>
+        </div><br>
+       <div><input type="checkbox" id="ps1" name="ps1" value="Bike">
+<label for="vehicle1"> C Programming</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> C++ Programming</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Java Programming</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Java Programming</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Java Script</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Python</label></div> <br>
+        
+        <div>
+            <b>Enter The Internships:</b></div><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Sales Force</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> AICTE Internship</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Internshala Internship</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Code Soft Internship</label>
+        </div><br><br>
+        <div>
+            <b>Enter The Certifications:</b></div><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Course Era</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> FreecodeCamp</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Tata Forage</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Udemy</label>
+        </div><br><br>
+        <button type="submit" value="Submit"><b>Submit</b></fieldset></button>
+        
+    </fieldset>
+
+    </form>
+</body>
+
+</html>
